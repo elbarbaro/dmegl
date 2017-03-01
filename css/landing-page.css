@@ -10,6 +10,12 @@ html {
     height: 100%;
 }
 
+hr {
+    border-color: #093248;
+    border-width: 3px;
+    max-width: 100px;
+}
+
 body,
 h1,
 h2,
@@ -108,7 +114,6 @@ h6 {
 }
 
 .section-heading {
-    margin-bottom: 30px;
 }
 
 .section-heading-spacer {
@@ -299,4 +304,13 @@ img::selection {
 img::-moz-selection {
     color: white;
     background: transparent;
+}
+
+.img-collaborators {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10px;
 }
