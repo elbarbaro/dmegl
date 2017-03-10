@@ -39,7 +39,8 @@ h6 {
     color: #f8f8f8;
     background: url(../img/principal.jpg) no-repeat center center;
     background-size: cover;
-    min-height: 678px;
+    height: auto;
+    /*min-height: 678px;*/
     position: relative;
     margin-top: 50px;
 }
@@ -183,6 +184,15 @@ p.copyright {
     min-height: 678px;
     margin-top: 50px;
     padding: 40% 40px 50% 40px;
+}
+
+.image-mining-logo{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .image-mining {
@@ -353,4 +363,12 @@ img::-moz-selection {
 .grid-item img {
     display: block;
     max-width: 100%;
+}
+
+.event_item{
+    padding: 10px;
+}
+
+.item-topic{
+    padding: 30px;
 }
