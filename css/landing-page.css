@@ -37,7 +37,7 @@ h6 {
 
 .intro-header {
     color: #f8f8f8;
-    background: url(../img/principal.jpg) no-repeat center center;
+    background: url(../img/principal1080.jpg) no-repeat center center;
     background-size: cover;
     height: auto;
     /*min-height: 678px;*/
@@ -371,4 +371,8 @@ img::-moz-selection {
 
 .item-topic{
     padding: 30px;
+}
+
+.item-topic-description{
+    padding: 0 100px;
 }
