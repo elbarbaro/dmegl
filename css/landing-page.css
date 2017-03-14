@@ -45,6 +45,10 @@ h6 {
     margin-top: 50px;
 }
 
+#topics{
+    background-color: #f8f8f8;
+}
+
 .intro-message {
     position: relative;
     background-color: rgba(0, 0, 0, 0.33);
@@ -370,9 +374,46 @@ img::-moz-selection {
 }
 
 .item-topic{
-    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
 .item-topic-description{
     padding: 0 100px;
 }
+
+@media only screen and (min-width: 991px )  {
+    .item-image-con-topic{
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+    }
+    .full-heigth{
+height: 100vh;
+
+    }
+
+
+}
+
+
+/*PANTALLA DE CELULAR O PEQUEÑA*/
+@media only screen and (max-width: 990px)  {
+    .item-image-con-topic{
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        padding-bottom: 10px;
+    }
+    .full-heigth{
+        height: 50vh;
+
+    }
+    strong{
+        font-weight: 500;
+        font-size: smaller;
+
+    }
+}
+
