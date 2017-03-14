@@ -46,7 +46,7 @@ h6 {
 }
 
 #topics{
-    background-color: #f8f8f8;
+    background-color: white;
 }
 
 .intro-message {
@@ -246,7 +246,9 @@ p.copyright {
 
 .portfolio-box {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -415,5 +417,11 @@ height: 100vh;
         font-size: smaller;
 
     }
+}
+
+.image-center-vertically{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

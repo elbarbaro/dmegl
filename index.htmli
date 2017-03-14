@@ -104,13 +104,18 @@
 
     <a name="topics"></a>
     <section id="topics">
-        <div>
-            <h1 class="section-heading text-center animated fadeInUp">Topics</h1>
-            <hr>
-        </div>
         <div class="container">
+            <div>
+                <h1 class="section-heading text-center animated fadeInUp">Topics</h1>
+                <hr>
+            </div>
             <div class="row">
-                <div class="col-md-6 pull-right">
+                <div class="col-md-6 full-heigth"  >
+
+                    <img class="item-image-con-topic" src="img/421-256.png">
+
+                </div>
+                <div class="col-md-6">
                     <div class="item-topic">
                         <span>
                             <img src="img/topics/data_mining.png" width="40" height="40">
@@ -133,12 +138,10 @@
                         <p>Ontologies gives meaning to information. By adding this, we can implement automatic reasoning in order to process information and infer knowledge from it.</p>
                     </div>
                 </div>
-                <div class="col-md-6 image-center-vertically">
-                    <img class="img-responsive" src="img/421-256.png">
-                </div>
+
             </div>
             <div class="row">
-                <div class="col-md-6 pull-left">
+                <div class="col-md-6 ">
                     <div class="item-topic">
                         <span>
                             <img src="img/topics/software_engineering.png" width="40" height="40">
@@ -161,8 +164,10 @@
                         <p>Scientific computing is the set of technologies that help us understand how our world function.</p>
                     </div>
                 </div>
-                <div class="col-md-6 image-center-vertically">
-                    <img class="img-responsive" src="img/3-256.png">
+                <div class="col-md-6 full-heigth"  >
+
+                        <img class="item-image-con-topic" src="img/3-256.png">
+
                 </div>
             </div>
         </div>
