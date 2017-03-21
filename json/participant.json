@@ -26,8 +26,16 @@
             "image": "Ing-Jose-Diosdado.png"
         },
         {
-            "name": "Unknown",
+            "name": "Edita",
             "image": "Bachelor-Miriam-Schlechter-Hochschule-Neu-Ulm.png"
+        },
+        {
+            "name": "Oscar Santana",
+            "image": "Oscar-Alberto.png"
+        },
+        {
+            "name": "Yatheendraprakash",
+            "image": "Yatheendraprakash.png"
         },
         {
             "name": "Livia Jimenez",
@@ -42,12 +50,12 @@
             "image": "Carlos-Ignacio-Ruiz.png"
         },
         {
-            "name": "Genaro Castro",
-            "image": "Genaro-Castro.png"
-        },
-        {
             "name": "Jordan Estrada",
             "image": "Jordan-Estrada.png"
+        },
+        {
+            "name": "David Hernandez",
+            "image": "David-Hernandez.png"
         },
         {
             "name": "Jorge Rivera",
