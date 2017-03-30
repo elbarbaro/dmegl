@@ -47,7 +47,7 @@ h6 {
 
 #topics{
     background-color: white;
-    padding: 50px 0;
+    /*padding: 50px 0;*/
 }
 
 .intro-message {
@@ -490,7 +490,7 @@ div.head-title-dmeg{
         font-weight: 700;
     }
 
-    #topics{
+    /*#topics{
         padding: 50px 0;
-    }
+    }*/
 }

@@ -6,6 +6,27 @@
             "image": "Dr-Liliana-Ibeth-Barbosa-Santillan.png"
         },
         {
+            "name" : "Dr. Álvaro de la Ossa CNCA - CeNAT",
+            "title": "Convenor",
+            "image": "Dr-Alvaro-de-Ossa.png"
+        },
+        {
+            "name": "Dr. Amilcar Meneses Viveros",
+            "image": ""
+        },
+        {
+            "name": "Dr. Juan Jaime Sánchez Escobar",
+            "image": ""
+        },
+        {
+            "name": "Dr. José Román Herrera Morales",
+            "image": "Dr-Jose-Roman-Herrera.png"
+        },
+        {
+            "name": "Dr. Jose Pablo Nuño-Parra",
+            "image": ""
+        },
+        {
             "name": "Dr. Antonio Pareja",
             "image": "Dr-Antonio-pareja.png"
         },
@@ -14,8 +35,28 @@
             "image": "Dr-Inmaculada-Alvarez.png"
         },
         {
-            "name": "Dr. José Román Herrera Morales",
-            "image": "Dr-Jose-Roman-Herrera.png"
+            "name": "M. Julio César Roa Gil - ITESM",
+            "image": ""
+        },
+        {
+          "name": "Ing. Elizabeth Campos Quirarte <br> Universidad de Guadalajara",
+          "image": ""
+        },
+        {
+            "name": "M. Ricardo Guzmán <br> Universidad de Guadalajara",
+            "image": ""
+        },
+        {
+            "name": "Bachelor Miriam Schlechter Hochschule Neu-Ulm",
+            "image": ""
+        },
+        {
+            "name": "M. Aldo Castro Munguia <br> Universidad de Guadalajara",
+            "image": ""
+        },
+        {
+            "name": "Ing. María Magdalena Flores Téllez ITESM",
+            "image": ""
         },
         {
             "name": "Rogelio Bautista",
