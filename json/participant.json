@@ -1,0 +1,89 @@
+{
+    "participants" : [
+        {
+            "name" : "Dra. Liliana Ibeth Barbosa Santillán",
+            "title": "Chairperson",
+            "image": "Dr-Liliana-Ibeth-Barbosa-Santillan.png"
+        },
+        {
+            "name": "Dr. Antonio Pareja",
+            "image": "Dr-Antonio-pareja.png"
+        },
+        {
+            "name": "Dra. Inmaculada Álvarez",
+            "image": "Dr-Inmaculada-Alvarez.png"
+        },
+        {
+            "name": "Dr. José Román Herrera Morales",
+            "image": "Dr-Jose-Roman-Herrera.png"
+        },
+        {
+            "name": "Rogelio Bautista",
+            "image": "Rogelio-Bautista.png"
+        },
+        {
+            "name": "Edyta Kurek",
+            "image": "Bachelor-Miriam-Schlechter-Hochschule-Neu-Ulm.png"
+        },
+        {
+            "name": "M. Oscar Alberto Santana Alvarez",
+            "image": "Oscar-Alberto.png"
+        },
+        {
+            "name": "M. Yatheendraprakash Govindaraju",
+            "image": "Yatheendraprakash.png"
+        },
+        {
+            "name": "Livia Jimenez",
+            "image": "Livia-jimenez.png"
+        },
+        {
+            "name": "Dr. Jesús Adán Flores Contreras",
+            "image": "Jesus-Flores.png"
+        },
+        {
+            "name": "Carlos Ignacio Ruiz",
+            "image": "Carlos-Ignacio-Ruiz.png"
+        },
+        {
+            "name": "Jordan Estrada",
+            "image": "Jordan-Estrada.png"
+        },
+        {
+            "name": "David Hernandez",
+            "image": "David-Hernandez.png"
+        },
+        {
+            "name": "Jorge Rivera",
+            "image": "Jorge-Rivera.png"
+        },
+        {
+            "name": "Jose Luis Mazariegos",
+            "image": "Jose-Luis-Mazariegos.png"
+        },
+        {
+            "name": "Julio Peinado",
+            "image": "Julio-Peinado.png"
+        },
+        {
+            "name": "Leopoldo Lopez",
+            "image": "Leopoldo-Lopez.png"
+        },
+        {
+            "name": "Luis Francisco Barbosa",
+            "image": "Luis-Francisco-Barbosa.png"
+        },
+        {
+          "name": "M. Edgar Leon Sandoval",
+          "image": "M.-Edgar-Leon-Sandoval.png"
+        },
+        {
+            "name": "M. Gabriel Alejandro Leon",
+            "image": "M.-Gabriel-Alejandro-Leon.png"
+        },
+        {
+            "name": "Yeudiel Benjamin Vazquez Hernandez",
+            "image": "Yeudiel-Benjamin.png"
+        }
+    ]
+}
