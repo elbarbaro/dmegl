@@ -34,7 +34,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar-inverse topnav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-dmeg" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -44,28 +44,28 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">DMEG</a>
+                <a class="navbar-brand nav-link navbar-options" href="index.html">DMEG</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right nav-link selected-option">
                     <li>
-                        <a href="#home">Home</a>
+                        <a class="navbar-options" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#topics">Topics</a>
+                        <a class="navbar-options" href="#topics">Topics</a>
                     </li>
                     <li>
-                        <a href="participants.html">Participants</a>
+                        <a class="navbar-options" href="#participants">Participants</a>
                     </li>
                     <li>
-                        <a href="#collaborators">Collaborators</a>
+                        <a class="navbar-options" href="#collaborators">Collaborators</a>
                     </li>
                     <li>
-                        <a href="#activities">Activities</a>
+                        <a class="navbar-options" href="#activities">Activities</a>
                     </li>
                     <li>
-                        <a href="#events">Events</a>
+                        <a class="navbar-options" href="#events">Events</a>
                     </li>
                 </ul>
             </div>
@@ -113,161 +113,72 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 pull-right">
-                    <div class="item-topic">
+                <div class="container-topics">
+                    <div class="col-md-4">
+                        <div class="item-topic">
                         <span>
-                            <img src="img/topics/data_mining.png" width="40" height="40">
+                            <img class="animated slideInUp" src="img/topics/data_mining.png" width="50" height="50">
                         </span>
-                        <h3>Data Mining</h3>
-                        <p>Data Mining allows us to extract knowledge from withing databases. Advance inference techniques are put to work in order to achieve our goal, which is the generation of knowledge to support research.</p>
+                            <h3>Data Mining</h3>
+                            <p>Data Mining allows us to extract knowledge from withing databases. Advance inference techniques are put to work in order to achieve our goal, which is the generation of knowledge to support research.</p>
+                        </div>
                     </div>
-                    <div class="item-topic">
+                    <div class="col-md-4">
+                        <div class="item-topic">
                         <span>
-                            <img src="img/topics/big_data1.png" width="40" height="40">
+                            <img class="animated slideInUp" src="img/topics/big_data1.png" width="50" height="50">
                         </span>
-                        <h3>Big Data</h3>
-                        <p>Big Data focuses on techniques and standars to manage enourmous amounts of information. Such quantities of information makes it difficult to handle by standard techniques</p>
+                            <h3>Big Data</h3>
+                            <p>Big Data focuses on techniques and standars to manage enourmous amounts of information. Such quantities of information makes it difficult to handle by standard techniques</p>
+                        </div>
                     </div>
-                    <div class="item-topic">
+                    <div class="col-md-4">
+                        <div class="item-topic">
                         <span>
-                            <img src="img/topics/ontology.png" width="40" height="40">
+                            <img class="animated slideInUp" src="img/topics/ontology.png" width="50" height="50">
                         </span>
-                        <h3>Ontologies</h3>
-                        <p>Ontologies gives meaning to information. By adding this, we can implement automatic reasoning in order to process information and infer knowledge from it.</p>
+                            <h3>Ontologies</h3>
+                            <p>Ontologies gives meaning to information. By adding this, we can implement automatic reasoning in order to process information and infer knowledge from it.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 image-center-vertically">
+                <!--<div class="col-md-6 image-center-vertically">
                     <img class="img-responsive" src="img/421-256.png">
-                </div>
+                </div>-->
             </div>
             <div class="row">
-                <div class="col-md-6 pull-left">
-                    <div class="item-topic">
+                <div class="container-topics">
+                    <div class="col-md-4">
+                        <div class="item-topic">
                         <span>
-                            <img src="img/topics/software_engineering.png" width="40" height="40">
+                            <img src="img/topics/software_engineering.png" width="50" height="50">
                         </span>
-                        <h3>Software Engineering</h3>
-                        <p>Software engineering involves methodologies in order to achieve the most effcient and effective development software process.</p>
+                            <h3>Software Engineering</h3>
+                            <p>Software engineering involves methodologies in order to achieve the most effcient and effective development software process.</p>
+                        </div>
                     </div>
-                    <div class="item-topic">
+                    <div class="col-md-4">
+                        <div class="item-topic">
                         <span>
-                            <img src="img/topics/hpc.png" width="40" height="40">
+                            <img src="img/topics/hpc.png" width="50" height="50">
                         </span>
-                        <h3>High Performance Processing</h3>
-                        <p>High performance processing involves the paralelization of sequential algorithms in order to obtain results faster.</p>
+                            <h3>HPP <small>High Performance Processing</small></h3>
+                            <p>High performance processing involves the paralelization of sequential algorithms in order to obtain results faster.</p>
+                        </div>
                     </div>
-                    <div class="item-topic">
+                    <div class="col-md-4">
+                        <div class="item-topic">
                         <span>
-                            <img src="img/topics/scientific_computing.png" width="40" height="40">
+                            <img src="img/topics/scientific_computing.png" width="50" height="50">
                         </span>
-                        <h3>Scientific Computing</h3>
-                        <p>Scientific computing is the set of technologies that help us understand how our world function.</p>
+                            <h3>Scientific Computing</h3>
+                            <p>Scientific computing is the set of technologies that help us understand how our world function.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 image-center-vertically">
-                    <img class="img-responsive" src="img/3-256.png">
                 </div>
             </div>
         </div>
     </section>
-    <!--<div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Topics</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-6">
-                    <div class="item-topic">
-                        <img src="img/topics/data_mining.png" width="100" height="100">
-                    </div>
-                    <h2>Data Mining</h2>
-                    <h3>Data Mining allows us to extract knowledge from withing databases. Advance inference techniques are put to work in order to achieve our goal, which is the generation of knowledge to support research.</h3>
-                </div>
-                <div class="col-lg-6">
-                    <div class="item-topic">
-                        <img src="img/topics/big_data1.png" width="100" height="100">
-                    </div>
-                    <h2>Big Data</h2>
-                    <h3>Big Data focuses on techniques and standars to manage enourmous amounts of information. Such quantities of information makes it difficult to handle by standard techniques</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h2>Data Mining</h2>
-                    <h3>Data Mining allows us to extract knowledge from withing databases. Advance inference techniques are put to work in order to achieve our goal, which is the generation of knowledge to support research.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class="item-topic">
-                        <img src="img/topics/big_data1.png" width="100" height="100">
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h2>Big Data</h2>
-                    <h3>Big Data focuses on techniques and standars to manage enourmous amounts of information. Such quantities of information makes it difficult to handle by standard techniques</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class="item-topic">
-                        <img src="img/topics/ontology.png" width="100" height="100">
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h2>Ontologies</h2>
-                    <h3>Ontologies gives meaning to information. By adding this, we can implement automatic reasoning in order to process information and infer knowledge from it.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class="item-topic">
-                        <img src="img/topics/software_engineering.png" width="100" height="100">
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h2>Software Engineering</h2>
-                    <h3>Software engineering involves methodologies in order to achieve the most effcient and effective development software process.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class="item-topic">
-                        <img src="img/topics/hpc.png" width="100" height="100">
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h2>High Performance Processing</h2>
-                    <h3>High performance processing involves the paralelization of sequential algorithms in order to obtain results faster.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class="item-topic">
-                        <img src="img/topics/scientific_computing.png" width="100" height="100">
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h2>Scientific Computing</h2>
-                    <h3>Scientific computing is the set of technologies that help us understand how our world function.</h3>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
 	<a  name="collaborators"></a>
     <div class="content-section-a">
         <div class="container">
@@ -277,7 +188,7 @@
                     <hr>
                 </div>
             </div>
-            <div class="row">
+            <div class="row image-collaborator">
                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center">
                     <!--<p class="lead">Instituto Nacional de Astrofísica, Óptica y Electrónica<br>(National Institute of Astrophysics, Optics and Electronics)</p>-->
                     <img class="img-responsive img-collaborators" src="img/collaborators/inade.png" alt="">
@@ -322,22 +233,22 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <img src="img/nvidia_gpu.png" width="250" height="100">
-                    <h3>CUDA Teaching Center</h3>
+                    <h4>CUDA Teaching Center</h4>
                     <p>University of Guadalajara is one of the CUDA teaching centers located in México.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <img src="img/nvidia_gpu.png" width="250" height="100">
-                    <h3>Course of Parallel Programming</h3>
+                    <h4>Course of Parallel Programming</h4>
                     <p>This course is being taught at the University of Guadalajara. To see the agenda of the course <a>click here</a> and the practices manual of CUDA language <a>click here.</a></p>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <img src="img/udg.png" width="100" height="100">
-                    <h3>Dolphines Program 2014</h3>
+                    <h4>Dolphines Program 2014</h4>
                     <p>This aim of this program is to promote researching among gradute students from universities inside Mexico.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <img src="img/udg.png" width="100" height="100">
-                    <h3>Writing of a book on IT topics</h3>
+                    <h4>Writing of a book on IT topics</h4>
                     <p>Actually, a book for popular science is being written. It will contain topics on IT.</p>
                 </div>
             </div>
@@ -483,8 +394,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <a href="events.html"><h4>More Events</h4></a>
+                <div class="col-lg-12 text-center">
+                    <a class="btn btn-default btn-more-events" href="events.html"><h4>More Events</h4></a>
                 </div>
             </div>
         </div>
@@ -499,44 +410,30 @@
                     <hr>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
+            <div class="row participants-image">
+                <div class="col-sm-3 text-center">
                     <img class="img-responsive img-collaborators" src="img/participants/Dr-Liliana-Ibeth-Barbosa-Santillan.png" width="220" height="220">
                     <h4>Dra. Liliana Ibeth Barbosa Santillán</h4>
                     <p>Chairperson</p>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
+                <div class="col-sm-3 text-center">
                     <img class="img-responsive img-collaborators" src="img/participants/Dr-Antonio-pareja.png" width="220" height="220">
                     <h4>Dr. Antonio Pareja</h4>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
+                <div class="col-sm-3 text-center">
                     <img class="img-responsive img-collaborators" src="img/participants/Dr-Inmaculada-Alvarez.png" width="220" height="220">
                     <h4>Dra. Inmaculada Álvarez</h4>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
+                <div class="col-sm-3 text-center">
                     <img class="img-responsive img-collaborators" src="img/participants/Dr-Jose-Roman-Herrera.png" width="220" height="220">
                     <h4>Dr. José Román Herrera Morales</h4>
                 </div>
             </div>
-            <!--<div class="row">
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Rogelio-Bautista.png">
-                    <h4>Dr. Álvaro de la Ossa CNCA - CeNAT</h4>
-                    <p>Convenor</p>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a class="btn btn-default btn-sm" href="participants.html"><h4>See complete team</h4></a>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Ing-Jose-Diosdado.png" width="280" height="280">
-                    <h4>Ing. José Oscar Diosdado Andrade</h4>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Bachelor-Miriam-Schlechter-Hochschule-Neu-Ulm.png" width="280" height="280">
-                    <h4>Bachelor Miriam Schlechter Hochschule Neu-Ulm</h4>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Livia-jimenez.png" width="280" height="280">
-                    <h4>Livia Jimenez</h4>
-                </div>
-            </div>-->
+            </div>
         </div>
     </div>
 
@@ -560,38 +457,29 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-lg-12">
-                    <ul class="list-inline">
+                    <ul class="list-inline footer-option">
                         <li>
                             <a href="#">Home</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
                             <a href="#topics">Topics</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#collaborators">Collaborators</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#activities">Activities</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#events">Events</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
                             <a href="#participants">Participants</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#collaborators">Collaborators</a>
+                        </li>
+                        <li>
+                            <a href="#activities">Activities</a>
+                        </li>
+                        <li>
+                            <a href="#events">Events</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Data Mining Engineering Group 2017. All Rights Reserved</p>
+                    <p class="copyright text-muted small footer-copyright">Copyright &copy; Data Mining Engineering Group 2017. All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -602,7 +490,12 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/particles.js"></script>
+    <script type="text/javascript">
+        particlesJS.load('topics', 'json/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
 </body>
 
 </html>
