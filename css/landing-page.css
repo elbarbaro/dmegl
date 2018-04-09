@@ -58,6 +58,11 @@ h6 {
     bottom: 0;
 }
 
+#dmeg-logo-container{
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
 .intro-message {
     position: relative;
     background-color: rgba(0, 0, 0, 0.33);
