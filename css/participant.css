@@ -1,6 +1,6 @@
 #card-container{
     background-color: transparent;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .participant-card{
@@ -11,12 +11,20 @@
     height: 309px;
 }
 
-body {
+body::after {
+    content: "";
     background-image: url(../img/back.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.85;
 }
 
 .container-fluid{
@@ -29,9 +37,8 @@ body {
 }
 
 .card-container{
-    margin: 30px auto;
-    padding: 25px;
-    background-color: rgba(255, 255, 255, .2);
+    padding: 20px;
+    /*background-color: rgba(255, 255, 255, .2);*/
     border-radius: 10px;
     min-height: 368px;
 }
@@ -40,9 +47,10 @@ body {
     width: 225px;
 }
 
-.card-container > .description > .title {
-    color: #000;
+.description .title {
+    color: #FFF;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .card-container > .description > .title + p{
@@ -73,13 +81,18 @@ h2:empty {
 
 .participant-name{
     font-weight: normal;
-    font-size: 22px;
+    font-size: 18px;
+    color: #FFF;
 }
 
 .participant-image{
     width:170px;
     height:170px;
     margin: 15px;
+}
+
+hr{
+    border-color: #307ca5;
 }
 
 @media only screen and (max-width: 768px) {

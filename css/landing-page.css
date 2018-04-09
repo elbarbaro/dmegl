@@ -58,6 +58,12 @@ h6 {
     bottom: 0;
 }
 
+@media screen and (max-width: 768px){
+    #particles-container {
+        display: none;
+    }
+}
+
 #dmeg-logo-container{
     z-index: 1;
     margin-bottom: 40px;
@@ -82,31 +88,6 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-
-/*@media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-}*/
-
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -130,9 +111,6 @@ h6 {
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
     /*background: url(../img/back_collaborators.jpg) no-repeat center center;*/
-}
-
-.section-heading {
 }
 
 .section-heading-spacer {
