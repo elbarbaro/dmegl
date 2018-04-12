@@ -16,9 +16,9 @@ $(document).ready(function() {
                 let name = participant.name || " ";
                 let title = participant.title || " ";
                 let image = participant.image || "default.png";
-                let colWidth = (index >= n-last)?  12/last : 3;
+                let colWidth = (index >= n-last)?  12/last : 2;
 
-                if (index % 4 === 0 && index !== 0){
+                if (index % 6 === 0 && index !== 0){
                     $(row).appendTo(container);
                     row = $("<div></div>", {
                         "class": "row"
@@ -61,3 +61,27 @@ $(document).ready(function() {
     });
     });
 });
+
+
+function addCard(data, to){
+    let col = $("<div class='col-sm-6 col-md-2'>" +
+                        "<div class='card-container'>"
+                        + "<div class='image'>" + 
+                        "<img src='./img/participants/" + image + "' alt='" + name + "'>" +
+                        "<hr/>" +
+                        "<div class='description'>" +
+                            "<p class='title'>" + title + "</p>" +
+                            "<p class='participant-name'>" + name + "</p>" +
+                        "</div>" + 
+                    "</div></div></div>");
+
+    $(col).appendTo(to);
+}
+
+function addColumn(data, to){
+
+}
+
+function addRow(data, to){
+
+}

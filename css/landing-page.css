@@ -26,6 +26,12 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+div.row{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .topnav {
     font-size: 14px;
 }

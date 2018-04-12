@@ -6,6 +6,11 @@
             "image": "Dr-Liliana-Ibeth-Barbosa-Santillan.png"
         },
         {
+            "name": "Dr. Álvaro de la Ossa",
+            "title": "Convenor",
+            "image": "Dr-alvaro-de-la-ossa.jpg"
+        },
+        {
             "name": "Dr. Antonio Pareja",
             "image": "Dr-Antonio-pareja.png"
         },
@@ -50,10 +55,6 @@
             "image": "Jordan-Estrada.png"
         },
         {
-            "name": "David Hernandez",
-            "image": "David-Hernandez.png"
-        },
-        {
             "name": "Julio Peinado",
             "image": "Julio-Peinado.png"
         },
@@ -76,6 +77,106 @@
         {
             "name": "Yeudiel Benjamin Vazquez Hernandez",
             "image": "Yeudiel-Benjamin.png"
+        },
+        {
+            "name": "Adrián Antonio Ramos Torres",
+            "image": "Adrian-antonio-ramos-torres.jpg"
+        },
+        {
+            "name": "Dr. Amilcar Meneses Viveros",
+            "image": "Dr-amilcar-meneses-viveros.jpg"
+        },
+        {
+            "name": "Dr. Jose Pablo Nuño-Parra",
+            "image": "Dr-jose-pablo-nuno-parra.jpg"
+        },
+        {
+            "name": "Dr. Juan Jaime Sánchez",
+            "image": "Dr-juan-jaime-sanchez-escobar.jpg"
+        },
+        {
+            "name": "Eduardo Osorio",
+            "image": "Eduardo-osorio.jpg"
+        },
+        {
+            "name": "Francisco Ramírez",
+            "image": "Francisco-ramirez.jpg"
+        },
+        {
+            "name": "Gerardo Varela",
+            "image": "Gerardo-varela.jpg"
+        },
+        {
+            "name": "Gildardo Ortega",
+            "image": "Gildardo-ortega.jpg"
+        },
+        {
+            "name": "Ing. Daniel Alvarado",
+            "image": "Ing-daniel-alvarado.jpg"
+        },
+        {
+            "name": "Ing. Elizabeth Campos Quirarte",
+            "image": "Ing-elizabeth-campos-quirarte.jpg"
+        },
+        {
+            "name": "Ing. Juan Carlos Saborío",
+            "image": "Ing-juan-carlos-saborio.jpg"
+        },
+        {
+            "name": "Ing. María Magdalena Flores Téllez",
+            "image": "Ing-maria-magdalena-flores-tellez.jpg"
+        },
+        {
+            "name": "Ing. Renato Garita",
+            "image": "Ing-renato-garita.jpg"
+        },
+        {
+            "name": "Ing. Ricardo Román",
+            "image": "Ing-ricardo-roman.jpg"
+        },
+        {
+            "name": "Jonathan Gallegos",
+            "image": "Jonathan-gallegos.jpg"
+        },
+        {
+            "name": "M. Aldo Castro Munguia",
+            "image": "M-aldo-castro-munguia.jpg"
+        },
+        {
+            "name": "M. Andrea Karina Feicán Bravo",
+            "image": "M-andrea-karina-feican-bravo.jpg"
+        },
+        {
+            "name": "M. Carlos Fernando de Santiago Ramírez",
+            "image": "M-carlos-fernando-de-santiago-ramirez.jpg"
+        },
+        {
+            "name": "M. Edgar León Sandoval",
+            "image": "M-edgar-leon-sandoval.jpg"
+        },
+        {
+            "name": "M. Gabriel Alejandro León Paredes",
+            "image": "M-gabriel-alejandro-leon-paredes.jpg"
+        },
+        {
+            "name": "M. Gustavo Becerra Gaviño",
+            "image": "M-gustavo-becerra-gavino.jpg"
+        },
+        {
+            "name": "M. Gustavo Montes Franco",
+            "image": "M-gustavo-montes-franco.jpg"
+        },
+        {
+            "name": "M. Julio César Roa Gil",
+            "image": "M-julio-cesar-roa-gil.jpg"
+        },
+        {
+            "name": "M. Ricardo Guzmán",
+            "image": "M-ricardo-guzman.jpg"
+        },
+        {
+            "name": "Uriel Cabello",
+            "image": "Uriel-cabello.jpg"
         }
     ]
 }

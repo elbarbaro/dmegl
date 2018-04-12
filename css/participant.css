@@ -37,20 +37,26 @@ body::after {
 }
 
 .card-container{
-    padding: 20px;
-    /*background-color: rgba(255, 255, 255, .2);*/
     border-radius: 10px;
-    min-height: 368px;
+    min-height: 215px;
 }
 
 .card-container > .image > img {
-    width: 225px;
+    width: 110px;
+    border-radius: 100px;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80px;
 }
 
 .description .title {
     color: #FFF;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .card-container > .description > .title + p{
@@ -81,7 +87,7 @@ h2:empty {
 
 .participant-name{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     color: #FFF;
 }
 
