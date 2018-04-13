@@ -9,47 +9,75 @@ $(document).ready(function() {
             let row = $("<div></div>", {
                 "class": "row"
             });
-
-            console.log("Participants: " + n);
+            let col1 = $("<div></div>", {
+                "class": "col-xs-6"
+            });
+            let col2 = $("<div></div>", {
+                "class": "col-sm-6"
+            });
+            let col3 = $("<div></div>", {
+                "class": "col-md-6"
+            });
 
             $.each(d.participants, function(index, participant){
                 let name = participant.name || " ";
                 let title = participant.title || " ";
                 let image = participant.image || "default.png";
-                let colWidth = (index >= n-last)?  12/last : 2;
+                let data = {
+                    name: name,
+                    title: title,
+                    image: image
+                }
 
-                if (index % 6 === 0 && index !== 0){
-                    $(row).appendTo(container);
-                    row = $("<div></div>", {
-                        "class": "row"
-                    });
-
-                    let col = $("<div class='col-sm-6 col-md-" + colWidth +"'>" +
-                        "<div class='card-container'>"
-                        + "<div class='image'><img src='./img/participants/" + image + "' alt='" + name + "'>"+
-                        "<hr/>" +
-                        "<div class='description'>" +
-                            "<p class='title'>" + title + "</p>" +
-                            "<p class='participant-name'>" + name + "</p>" +
-                        "</div>" + 
-                    "</div></div></div>");
-                    $(col).appendTo(row);
-                    
-                } else {
-                    let col = $("<div class='col-sm-6 col-md-" + colWidth +"'>" +
-                        "<div class='card-container'>"
-                        + "<div class='image'>" + 
-                        "<img src='./img/participants/" + image + "' alt='" + name + "'>" +
-                        "<hr/>" +
-                        "<div class='description'>" +
-                            "<p class='title'>" + title + "</p>" +
-                            "<p class='participant-name'>" + name + "</p>" +
-                        "</div>" + 
-                    "</div></div></div>");
-                    $(col).appendTo(row);
-                } 
+                if (index > 0){
+                    if (index % 8 == 0){
+                        addColumn(col2, col3);
+                        col2 = $("<div></div>", {
+                            "class": "col-sm-6"
+                        });
+                        addColumn(col3, row);
+                        col3 = $("<div></div>", {
+                            "class": "col-md-6"
+                        });
+                        addRow(row, container);
+                        row = $("<div></div>", {
+                            "class": "row"
+                        });
+                    } else {
+                        if (index % 4 == 0){
+                            addColumn(col2, col3);
+                            col2 = $("<div></div>", {
+                                "class": "col-sm-6"
+                            });
+                            addColumn(col3, row);
+                            col3 = $("<div></div>", {
+                                "class": "col-md-6"
+                            });
+                        } else {
+                            if (index % 2 == 0){
+                                addColumn(col2, col3);
+                                col2 = $("<div></div>", {
+                                    "class": "col-sm-6"
+                                });
+                            }
+                        }
+                    }
+                }
+                addCard(data, col1);
+                addColumn(col1, col2);
+                col1 = $("<div></div>", {
+                    "class": "col-xs-6"
+                });
             });
-            $(row).appendTo(container);
+            addColumn(col2, col3);
+            col2 = $("<div></div>", {
+                "class": "col-sm-6"
+            });
+            addColumn(col3, row);
+            col3 = $("<div></div>", {
+                "class": "col-md-6"
+            });
+            addRow(row, container);
             
         })
     )
@@ -64,24 +92,26 @@ $(document).ready(function() {
 
 
 function addCard(data, to){
-    let col = $("<div class='col-sm-6 col-md-2'>" +
-                        "<div class='card-container'>"
-                        + "<div class='image'>" + 
-                        "<img src='./img/participants/" + image + "' alt='" + name + "'>" +
-                        "<hr/>" +
-                        "<div class='description'>" +
-                            "<p class='title'>" + title + "</p>" +
-                            "<p class='participant-name'>" + name + "</p>" +
-                        "</div>" + 
-                    "</div></div></div>");
+    let card = $(
+        "<div class='card-container'>" +
+            "<div class='image'>" + 
+                "<img src='./img/participants/" + data.image + "' alt='" + data.name + "'>" +
+                "<hr/>" +
+                "<div class='description'>" +
+                    "<p class='title'>" + data.title + "</p>" +
+                    "<p class='participant-name'>" + data.name + "</p>" +
+                "</div>" + 
+        "</div></div>");
 
-    $(col).appendTo(to);
+    $(card).appendTo(to);
 }
 
 function addColumn(data, to){
-
+    $(data[0]).appendTo(to); // Objeto de jQuery, por eso el [0]
 }
 
 function addRow(data, to){
-
+    console.log(data[0]);
+    let row = $("<div class='row'>" + data[0].innerHTML + "</div>");// Objeto de jQuery, por eso el [0]
+    $(row).appendTo(to);
 }

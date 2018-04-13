@@ -41,6 +41,10 @@ body::after {
     min-height: 215px;
 }
 
+div[class^="col-"] {
+    padding: 0;
+}
+
 .card-container > .image > img {
     width: 110px;
     border-radius: 100px;
