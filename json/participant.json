@@ -11,16 +11,24 @@
             "image": "Dr-alvaro-de-la-ossa.jpg"
         },
         {
+            "name": "Dr. Amilcar Meneses Viveros",
+            "image": "Dr-amilcar-meneses-viveros.jpg"
+        },
+        {
+            "name": "Dr. José Román Herrera Morales",
+            "image": "Dr-Jose-Roman-Herrera.png"
+        },
+        {
+            "name": "Dr. Jose Pablo Nuño-Parra",
+            "image": "Dr-jose-pablo-nuno-parra.jpg"
+        },
+        {
             "name": "Dr. Antonio Pareja",
             "image": "Dr-Antonio-pareja.png"
         },
         {
             "name": "Dra. Inmaculada Álvarez",
             "image": "Dr-Inmaculada-Alvarez.png"
-        },
-        {
-            "name": "Dr. José Román Herrera Morales",
-            "image": "Dr-Jose-Roman-Herrera.png"
         },
         {
             "name": "Rogelio Bautista",
@@ -83,14 +91,6 @@
             "image": "Adrian-antonio-ramos-torres.jpg"
         },
         {
-            "name": "Dr. Amilcar Meneses Viveros",
-            "image": "Dr-amilcar-meneses-viveros.jpg"
-        },
-        {
-            "name": "Dr. Jose Pablo Nuño-Parra",
-            "image": "Dr-jose-pablo-nuno-parra.jpg"
-        },
-        {
             "name": "Dr. Juan Jaime Sánchez",
             "image": "Dr-juan-jaime-sanchez-escobar.jpg"
         },
@@ -151,10 +151,6 @@
             "image": "M-carlos-fernando-de-santiago-ramirez.jpg"
         },
         {
-            "name": "M. Edgar León Sandoval",
-            "image": "M-edgar-leon-sandoval.jpg"
-        },
-        {
             "name": "M. Gabriel Alejandro León Paredes",
             "image": "M-gabriel-alejandro-leon-paredes.jpg"
         },
@@ -177,6 +173,22 @@
         {
             "name": "Uriel Cabello",
             "image": "Uriel-cabello.jpg"
+        },
+        {
+            "name": "Edith",
+            "image": "Edith.jpg"
+        },
+        {
+            "name": "Edson",
+            "image": "Edson.jpg"
+        },
+        {
+            "name": "Gibran",
+            "image": "gibran.jpg"
+        },
+        {
+            "name": "Shen Ting",
+            "image": "SHEN-Ting.jpeg"
         }
     ]
 }
