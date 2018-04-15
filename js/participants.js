@@ -115,3 +115,13 @@ function addRow(data, to){
     let row = $("<div class='row'>" + data[0].innerHTML + "</div>");// Objeto de jQuery, por eso el [0]
     $(row).appendTo(to);
 }
+
+
+
+
+
+
+
+
+
+
