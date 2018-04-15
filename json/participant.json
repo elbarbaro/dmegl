@@ -15,6 +15,10 @@
             "image": "Dr-amilcar-meneses-viveros.jpg"
         },
         {
+            "name": "Dr. Juan Jaime Sánchez",
+            "image": "Dr-juan-jaime-sanchez-escobar.jpg"
+        },
+        {
             "name": "Dr. José Román Herrera Morales",
             "image": "Dr-Jose-Roman-Herrera.png"
         },
@@ -29,10 +33,6 @@
         {
             "name": "Dra. Inmaculada Álvarez",
             "image": "Dr-Inmaculada-Alvarez.png"
-        },
-        {
-            "name": "Rogelio Bautista",
-            "image": "Rogelio-Bautista.png"
         },
         {
             "name": "Edyta Kurek",
@@ -59,10 +59,6 @@
             "image": "Carlos-Ignacio-Ruiz.png"
         },
         {
-            "name": "Jordan Estrada",
-            "image": "Jordan-Estrada.png"
-        },
-        {
             "name": "Julio Peinado",
             "image": "Julio-Peinado.png"
         },
@@ -79,6 +75,10 @@
           "image": "M.-Edgar-Leon-Sandoval.png"
         },
         {
+            "name": "M. Julio César Roa Gil",
+            "image": "M-julio-cesar-roa-gil.jpg"
+        },
+        {
             "name": "M. Gabriel Alejandro Leon",
             "image": "M.-Gabriel-Alejandro-Leon.png"
         },
@@ -91,8 +91,8 @@
             "image": "Adrian-antonio-ramos-torres.jpg"
         },
         {
-            "name": "Dr. Juan Jaime Sánchez",
-            "image": "Dr-juan-jaime-sanchez-escobar.jpg"
+            "name": "Jordan Estrada",
+            "image": "Jordan-Estrada.png"
         },
         {
             "name": "Eduardo Osorio",
@@ -139,6 +139,14 @@
             "image": "Jonathan-gallegos.jpg"
         },
         {
+            "name": "Rogelio Bautista",
+            "image": "Rogelio-Bautista.png"
+        },
+        {
+            "name": "Bachelor Miriam Schlechter Hochschule",
+            "image": "Bachelor-Miriam-Schlechter.jpg"
+        },
+        {
             "name": "M. Aldo Castro Munguia",
             "image": "M-aldo-castro-munguia.jpg"
         },
@@ -151,10 +159,6 @@
             "image": "M-carlos-fernando-de-santiago-ramirez.jpg"
         },
         {
-            "name": "M. Gabriel Alejandro León Paredes",
-            "image": "M-gabriel-alejandro-leon-paredes.jpg"
-        },
-        {
             "name": "M. Gustavo Becerra Gaviño",
             "image": "M-gustavo-becerra-gavino.jpg"
         },
@@ -163,8 +167,8 @@
             "image": "M-gustavo-montes-franco.jpg"
         },
         {
-            "name": "M. Julio César Roa Gil",
-            "image": "M-julio-cesar-roa-gil.jpg"
+            "name": "Lic. Yolanda Rios",
+            "image": "Lic.Yolanda-Rios.jpg"
         },
         {
             "name": "M. Ricardo Guzmán",
