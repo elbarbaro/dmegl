@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-    $.when(
         $.getJSON("./json/participant.json", function(d){
 
             let container = $("#card-container");
@@ -80,14 +78,6 @@ $(document).ready(function() {
             addRow(row, container);
             
         })
-    )
-    .then(function(){
-
-        $('.participant-card').addClass("noVisible").viewportChecker({
-        classToAdd: 'visible animated slideInRight', 
-        offset: 100    
-    });
-    });
 });
 
 
@@ -111,7 +101,6 @@ function addColumn(data, to){
 }
 
 function addRow(data, to){
-    console.log(data[0]);
     let row = $("<div class='row'>" + data[0].innerHTML + "</div>");// Objeto de jQuery, por eso el [0]
     $(row).appendTo(to);
 }
