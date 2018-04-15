@@ -21,6 +21,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/participant.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -228,7 +229,7 @@
     <!-- /.content-section-a -->
 
     <a name="activities"></a>
-    <div class="content-section-b">
+    <div class="content-section-b" id="activities-container">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -410,36 +411,7 @@
     <a name="participants"></a>
     <div class="content-section-b">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Participants</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row participants-image">
-                <div class="col-sm-3 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Dr-Liliana-Ibeth-Barbosa-Santillan.png" width="220" height="220">
-                    <h4>Dra. Liliana Ibeth Barbosa Santillán</h4>
-                    <p>Chairperson</p>
-                </div>
-                <div class="col-sm-3 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Dr-Antonio-pareja.png" width="220" height="220">
-                    <h4>Dr. Antonio Pareja</h4>
-                </div>
-                <div class="col-sm-3 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Dr-Inmaculada-Alvarez.png" width="220" height="220">
-                    <h4>Dra. Inmaculada Álvarez</h4>
-                </div>
-                <div class="col-sm-3 text-center">
-                    <img class="img-responsive img-collaborators" src="img/participants/Dr-Jose-Roman-Herrera.png" width="220" height="220">
-                    <h4>Dr. José Román Herrera Morales</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a class="btn btn-default btn-sm" href="participants.html"><h4>See complete team</h4></a>
-                </div>
-            </div>
+            <div id="card-container"></div>
         </div>
     </div>
 
@@ -496,6 +468,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/participants.js"></script>
     <script src="js/particles.js"></script>
     <script type="text/javascript">
         particlesJS.load('particles-container', 'json/particles.json', function() {
