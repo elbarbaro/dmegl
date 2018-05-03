@@ -201,6 +201,14 @@
         {
             "name": "Cipriano",
             "image": "cipriano.jpg"
+        },
+        {
+            "name": "Jhonathan",
+            "image": "Jhonathan.png"
+        },
+        {
+            "name": "Uriel",
+            "image": "Uriel.jpg"
         }
     ]
 }
