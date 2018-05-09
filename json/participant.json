@@ -209,6 +209,14 @@
         {
             "name": "Uriel",
             "image": "Uriel.jpg"
+        },
+        {
+            "name": "Julian Osorio",
+            "image": "JulianOsorio.jpg"
+        },
+        {
+            "name": "",
+            "image": "unknown.jpg"
         }
     ]
 }
